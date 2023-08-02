@@ -1,0 +1,11 @@
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.cart-button img{
+    width: 25px;
+    height: 25px;
+}
