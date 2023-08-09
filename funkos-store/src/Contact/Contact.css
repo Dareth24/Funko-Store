@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact p{
+    color: #ffff;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 760px) {
+    .contact {
+        width: 85%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact p {
+        padding-right: 15px;
+    }
+
+    .contact img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 359px) {
+    .contact p {
+        font-size: 14px;
+    }
+}

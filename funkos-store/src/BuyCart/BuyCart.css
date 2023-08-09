@@ -1,4 +1,4 @@
-.cart-button{
+.cart-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,4 +8,10 @@
 .cart-button img{
     width: 25px;
     height: 25px;
+}
+
+@media (max-width: 760px) {
+    .cart-button {
+        margin: 0 25px 0 20px;
+    }
 }

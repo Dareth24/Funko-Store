@@ -1,0 +1,37 @@
+.credits {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+.credits::after {
+    content: "";
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    border-top: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.credits a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+@media (max-width: 760px) {
+    .credits {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .credits {
+        padding-top: 0;
+    }
+}

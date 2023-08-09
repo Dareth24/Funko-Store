@@ -14,3 +14,9 @@
     font-size: 2rem;
     padding: 0 40px 0 80px;
 }
+
+@media (max-width: 760px) {
+    .header h1 {
+        padding: 0 10px 0 0;
+    }
+}

@@ -1,7 +1,12 @@
+import { Card } from "../Card";
+import './Main.css';
+
 function Main() {
     return (
-        <main>
-            <p>Este es el Main</p>
+        <main className="main-container">
+            <div className="main-grid">
+                <Card></Card>
+            </div>
         </main>
     )
 }

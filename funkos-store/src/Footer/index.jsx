@@ -1,7 +1,14 @@
+import { Contact } from '../Contact';
+import {SocialMedia} from '../SocialMedia';
+import { Credits } from '../Credits';
+import './Footer.css';
+
 function Footer() {
     return (
         <footer>
-            <p>Este es el footer</p>  
+            <Contact></Contact>
+            <SocialMedia></SocialMedia>
+            <Credits></Credits>
         </footer> 
     )
 }
