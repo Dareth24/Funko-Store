@@ -1,4 +1,4 @@
-import Logo from '../assets/pop.jpg';
+import Logo from '../../assets/pop.jpg';
 import './Contact.css'
 
 function Contact() {

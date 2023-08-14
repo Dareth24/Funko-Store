@@ -1,4 +1,4 @@
-import LogoImg from '../assets/pop.jpg';
+import LogoImg from '../../assets/pop.jpg';
 import './Logo.css';
 
 function Logo() {

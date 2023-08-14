@@ -1,4 +1,4 @@
-import cart from '../assets/icons/cart.png';
+import cart from '../../assets/icons/cart.png';
 import './BuyCart.css';
 
 function BuyCart() {

@@ -1,4 +1,4 @@
-import searchButton from '../assets/icons/search.png';
+import searchButton from '../../assets/icons/search.png';
 import './SearchBar.css'
 
 function SearchBar() {

@@ -1,6 +1,6 @@
-import FacebookLogo from '../assets/icons/facebook.png';
-import InstagramLogo from '../assets/icons/logotipo-de-instagram.png';
-import TwitterLogo from '../assets/icons/gorjeo.png';
+import FacebookLogo from '../../assets/icons/facebook.png';
+import InstagramLogo from '../../assets/icons/logotipo-de-instagram.png';
+import TwitterLogo from '../../assets/icons/gorjeo.png';
 import './SocialMedia.css';
 
 function SocialMedia() {
